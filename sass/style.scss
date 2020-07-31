@@ -102,11 +102,7 @@ $form-group-margin-bottom:       30px !default;
 
 
 
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 
 body {
 	font-family: $font-primary;
@@ -851,7 +847,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-//PRICING
+
 
 // BLOG
 .aishportfo
@@ -945,8 +941,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#aishportfo
--consult{
+#aishportfo-consult{
 	@include flex();
 	@include flexwrap();
 	width: 100%;
@@ -979,8 +974,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-.aishportfo
--video {
+.aishportfo-video {
 	overflow: hidden;
 	@media screen and (max-width: $screen-md){
 		height: 450px;
@@ -997,8 +991,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#aishportfo
--footer {
+#aishportfo-footer {
 	padding: 50px 0;
 	float: left;
 	width: 100%;
@@ -1280,8 +1273,7 @@ input[type="text"] {
    margin: 0px !important;
 }
 
-.aishportfo
--loader {
+.aishportfo-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
